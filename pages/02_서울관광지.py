@@ -1,4 +1,13 @@
- page_icon="🗺️",
+
+import streamlit as st
+import pandas as pd
+import folium
+from streamlit_folium import st_folium
+
+# 페이지 설정
+st.set_page_config(
+    page_title="서울 관광 명소 지도",
+    page_icon="🗺️",
     layout="wide"
 )
 
